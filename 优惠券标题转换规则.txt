@@ -1,0 +1,19 @@
+把优惠券分为几种类型，类型名为： A1，A2, ..., A4, B1, B2, KA1, ..., KA4, KB1, KB2  
+按规则识别优惠券标题属于上面什么类型，然后从该类型的句式中随机套用一个生成新的优惠券标题。
+句式模板：https://shimo.im/sheet/NqskXzfePwQu6a6O/ 
+
+规则需要沟通来表示清楚，写不出来。
+规则：
+A 系列
+(Save-...-$) 或 ($-空格-(off或discount)) 
+(Save-...-%)  或 (%-空格-(off或discount)) 
+$,$
+$,%
+
+B 系列
+sign, A
+up to, A
+
+K 系列
+Keywords, A
+keywords, B
